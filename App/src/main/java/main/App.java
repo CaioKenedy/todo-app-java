@@ -2,6 +2,10 @@
 
 package main;
 
+import java.sql.Connection;
+import util.ConnectionFactory;
+
+
 /**
  
  * @author caiok
@@ -9,6 +13,7 @@ package main;
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Connection c = ConnectionFactory.getConnection();
     }
 }
