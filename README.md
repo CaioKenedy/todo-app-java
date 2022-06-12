@@ -3,4 +3,4 @@
 ------------------------------------------------------
 
 > Working on a to do application
-#### More info soon
+#### More info soon :)
