@@ -15,7 +15,7 @@ public class Task {
     private int id;
     private int idProject;
     private String name;
-    private String discription;
+    private String description;
     private String notes;
     private boolean completed;
     private Date deadline;
@@ -26,7 +26,7 @@ public class Task {
         this.id = id;
         this.idProject = idProject;
         this.name = name;
-        this.discription = discription;
+        this.description = discription;
         this.notes = notes;
         this.completed = completed;
         this.deadline = deadline;
@@ -62,12 +62,12 @@ public class Task {
         this.name = name;
     }
 
-    public String getDiscription() {
-        return discription;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDiscription(String discription) {
-        this.discription = discription;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getNotes() {
@@ -112,7 +112,7 @@ public class Task {
 
     @Override
     public String toString() {
-        return "Task{" + "id=" + id + ", idProject=" + idProject + ", name=" + name + ", discription=" + discription + ", notes=" + notes + ", completed=" + completed + ", deadline=" + deadline + ", createdAt=" + createdAt + ", updatedAt=" + updatedAt + '}';
+        return "Task{" + "id=" + id + ", idProject=" + idProject + ", name=" + name + ", description=" + description + ", notes=" + notes + ", completed=" + completed + ", deadline=" + deadline + ", createdAt=" + createdAt + ", updatedAt=" + updatedAt + '}';
     }
     
     
