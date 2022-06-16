@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author caiok
  */
-public class project {
+public class Project {
     
     private int id;
     private String name;
@@ -18,12 +18,16 @@ public class project {
     private Date createdAt;
     private Date updatedAt;
 
-    public project(int id, String name, String description, Date createdAt, Date updatedAt) {
+    public Project(int id, String name, String description, Date createdAt, Date updatedAt) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
+    }
+
+    public Project() {
+        this.createdAt = new Date();
     }
 
     public int getId() {
@@ -70,6 +74,7 @@ public class project {
     public String toString() {
         return "project{" + "id=" + id + ", name=" + name + ", description=" + description + ", createdAt=" + createdAt + ", updatedAt=" + updatedAt + '}';
     }
+    
 
     
     
